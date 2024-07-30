@@ -71,6 +71,7 @@
     .contact-form-input input
     {
         width: 100%;
+        gap: 10px;
     }
     .last-footer h3{
         font-size: 14px;
@@ -107,9 +108,11 @@
         margin-top: 30px;
     }
     .footer-contact-form-btn{
-        padding: 7px;
+        padding: 8px 10px;
         display: block;
         margin-bottom: 5px;
+        height: auto;
+        border: 1px solid green;
     }
     .content-banner-top-section{
         gap: 0;
@@ -130,5 +133,13 @@
     main{
         width: 90%;
         margin: 0 auto;
+    }
+    /* .footer-con{
+        display: flex;
+    } */
+    .contact-form-input input{
+        padding: 8px 14px;
+        margin-right: 6px;
+        height: auto;
     }
 }
