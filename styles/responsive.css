@@ -105,4 +105,12 @@
     {
         margin-top: 30px;
     }
+    .footer-contact-form-btn{
+        padding: 7px;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .content-banner-top-section{
+        gap: 0;
+    }
 }
