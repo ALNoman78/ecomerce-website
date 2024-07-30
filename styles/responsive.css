@@ -5,7 +5,6 @@
     .advertise-container,
     .last-ad-section-container,
     nav ul,
-    .content-banner-top-section,
     .footer-con,
     .footer-content
     {
@@ -45,6 +44,8 @@
     .content input {
         width: 100%;
         margin-left: 0;
+        padding: 3px 10px;
+        font-size: 1rem;
     }
     .content img {
         width: 100%;
@@ -112,5 +113,22 @@
     }
     .content-banner-top-section{
         gap: 0;
+    }
+    .nav-ul-hide{
+        display: none;
+    }
+    nav,
+    .banner-container
+    {
+        margin-top: 35px;
+    }
+    .banner-btn{
+        font-size: 12px;
+        padding: 10px 12px;
+        margin-left: 3px;
+    }
+    main{
+        width: 90%;
+        margin: 0 auto;
     }
 }
