@@ -1,0 +1,108 @@
+@media screen and (max-width: 576px) {
+
+    .nav-container,
+    .first-nav-bar-ul,
+    .advertise-container,
+    .last-ad-section-container,
+    nav ul,
+    .content-banner-top-section,
+    .footer-con,
+    .footer-content
+    {
+        flex-direction: column;
+    }
+
+    nav svg,
+    .banner-side-scroller {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .content img {
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .services-container,
+    .shoping-card-content,
+    .brand-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .advertise-container,
+    .last-ad-section-container,
+    .brand-container,
+    .footer-content 
+    {
+        gap: 20px;
+    }
+
+    .content input {
+        width: 100%;
+        margin-left: 0;
+    }
+    .content img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .item-content{
+        width: 100%;
+        padding: 17px;
+    }
+    .advertise-items-image
+    {
+        width: 100%;
+    }
+    #advertise-img-repo,
+    #advertise-replace,
+    .second-ad-image
+    {
+        width: 100%;
+        height: auto;
+    }
+    .footer-con,
+    .contact-form-input input
+    {
+        width: 100%;
+    }
+    .last-footer h3{
+        font-size: 14px;
+        text-align: center;
+    }
+    .adverstise-text,
+    .last-ad-text
+    {
+        top: 45%;
+        left: 39%;
+        transform: translate(-50% , -50%);
+        font-size: 13px;
+    }
+    .adverstise-text p,
+    .last-ad-text p
+    {
+        display: none;
+    }
+    .first-nav-bar-ul{
+        display: none;
+    }
+    .nav-container{
+        width: 100%;
+        text-align: center;
+        line-height: 24px;
+    }
+    .first-nav-header{
+        font-size: 14px;
+    }
+    .shoping-card-container,
+    .last-ad-section-container,
+    .footer-contact-form
+    {
+        margin-top: 30px;
+    }
+}
