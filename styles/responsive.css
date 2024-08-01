@@ -6,8 +6,7 @@
     .last-ad-section-container,
     nav ul,
     .footer-con,
-    .footer-content
-    {
+    .footer-content {
         flex-direction: column;
     }
 
@@ -36,8 +35,7 @@
     .advertise-container,
     .last-ad-section-container,
     .brand-container,
-    .footer-content 
-    {
+    .footer-content {
         gap: 20px;
     }
 
@@ -47,99 +45,115 @@
         padding: 3px 10px;
         font-size: 1rem;
     }
+
     .content img {
         width: 100%;
         height: auto;
         margin: 0;
     }
-    .item-content{
+
+    .item-content {
         width: 100%;
         padding: 17px;
     }
-    .advertise-items-image
-    {
+
+    .advertise-items-image {
         width: 100%;
     }
+
     #advertise-img-repo,
     #advertise-replace,
-    .second-ad-image
-    {
+    .second-ad-image {
         width: 100%;
         height: auto;
     }
+
     .footer-con,
-    .contact-form-input input
-    {
+    .contact-form-input input {
         width: 100%;
         gap: 10px;
     }
-    .last-footer h3{
+
+    .last-footer h3 {
         font-size: 14px;
         text-align: center;
     }
+
     .adverstise-text,
-    .last-ad-text
-    {
+    .last-ad-text {
         top: 45%;
         left: 39%;
-        transform: translate(-50% , -50%);
+        transform: translate(-50%, -50%);
         font-size: 13px;
     }
+
     .adverstise-text p,
-    .last-ad-text p
-    {
+    .last-ad-text p {
         display: none;
     }
-    .first-nav-bar-ul{
+
+    .first-nav-bar-ul {
         display: none;
     }
-    .nav-container{
+
+    .nav-container {
         width: 100%;
         text-align: center;
         line-height: 24px;
     }
-    .first-nav-header{
+
+    .first-nav-header {
         font-size: 14px;
     }
+
     .shoping-card-container,
     .last-ad-section-container,
-    .footer-contact-form
-    {
+    .footer-contact-form {
         margin-top: 30px;
     }
-    .footer-contact-form-btn{
+
+    .footer-contact-form-btn {
         padding: 8px 10px;
         display: block;
         margin-bottom: 5px;
         height: auto;
         border: 1px solid green;
     }
-    .content-banner-top-section{
+
+    .content-banner-top-section {
         gap: 0;
     }
-    .nav-ul-hide{
+
+    .nav-ul-hide {
         display: none;
     }
+
     nav,
-    .banner-container
-    {
+    .banner-container {
         margin-top: 35px;
     }
-    .banner-btn{
+
+    .banner-btn {
         font-size: 12px;
         padding: 10px 12px;
         margin-left: 3px;
     }
-    main{
+
+    main {
         width: 90%;
         margin: 0 auto;
     }
+
     /* .footer-con{
         display: flex;
     } */
-    .contact-form-input input{
+    .contact-form-input input {
         padding: 8px 14px;
         margin-right: 6px;
         height: auto;
+    }
+
+    .banner-container {
+        grid-template-columns: repeat(1 , 1fr);
     }
 }
