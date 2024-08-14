@@ -1,22 +1,23 @@
 const product = {
-    productName : "T-shirt",
-    price : 450.,
-    ratingProduct : 4,
-    productOffer : 5,
+  productName: "T-shirt",
+  price: 450,
+  ratingProduct: 4,
+  productOffer: 5,
 };
 console.log(product);
 
 const social = {
-    profileName : "Abdullah AL Noman",
-    isFollow : true,
-    profileFollowers : 550000,
-    profilePost : 120,
-    followAc : 4,
-    infoAc : "I am a professional font-end web developer, if you need any kind of design just tell me i will create this for you",
+  profileName: "Abdullah AL Noman",
+  isFollow: true,
+  profileFollowers: 550000,
+  profilePost: 120,
+  followAc: 4,
+  infoAc:
+    "I am a professional font-end web developer, if you need any kind of design just tell me i will create this for you",
 };
-console.log(social)
+console.log(social);
 
-// arthmeatic operator 
+// arthmeatic operator
 // let a = 5;
 // let b = 2;
 // let c = (a *a ) + 2*( a * b ) + ( b * b );
@@ -27,7 +28,7 @@ console.log(social)
 // let modulus = a % b;
 // console.log("a % b =", modulus)
 
-// unary operator 
+// unary operator
 
 // let a = 5;
 // let b = 2;
@@ -35,16 +36,14 @@ console.log(social)
 // console.log(" a = ", a , "& b ", b);
 // console.log(" a ++ =", a++)
 
-
 // assignment operator
 
-// let a = 5; 
+// let a = 5;
 // a %= 4;  that means a = a % 4 (value)
 // a **= 4; that means a = a ** 4 (value)
 // console.log(a);
 
-// comparison operator 
-
+// comparison operator
 
 // let a = 5;
 // let b = 5;
@@ -52,7 +51,6 @@ console.log(social)
 // console.log(" a  ", a, "& b ", b);
 // console.log( " 5 == 5" , a == b); // true
 // console.log( " 5 == 3 " , a == x); // false
-
 
 //logical operator
 
@@ -66,33 +64,32 @@ console.log(social)
 // let cond4 = a === b ; // true
 // console.log("cond3 || cond4 =", cond3 || cond4)
 
-
 // conditional operators
 
 let age = 18;
-if (age >= 18){
-    console.log("You are eligible for Driving")
-}else{
-    console.log("You are not eligible for Driving")
+if (age >= 18) {
+  console.log("You are eligible for Driving");
+} else {
+  console.log("You are not eligible for Driving");
 }
 
 let mode = "light";
 let color;
-if( mode === "dark"){
-    color = "black";
-}else{
-    color = "white";
+if (mode === "dark") {
+  color = "black";
+} else {
+  color = "white";
 }
-console.log(color)
+console.log(color);
 
 let x = 9;
-if (x % 2 === 0){
-    console.log(x , "This is even number")
-}else{
-    console.log(x , "Odd number")
+if (x % 2 === 0) {
+  console.log(x, "This is even number");
+} else {
+  console.log(x, "Odd number");
 }
 
-// let mark = prompt("Enter the value of your marks"); // get a user input 
+// let mark = prompt("Enter the value of your marks"); // get a user input
 // let mark = 33;
 // let grade;
 // if(mark >= 90 && mark <= 100){
@@ -125,8 +122,6 @@ if (x % 2 === 0){
 //     console.log(user , "this can't be divided number");
 // }
 
-
-
 // grade using if..then..else if
 
 // let score = prompt("Enter Your Marks All subjects");
@@ -145,3 +140,62 @@ if (x % 2 === 0){
 //     grade = "F";
 // }
 // console.log("Your accurate grade is =",grade)
+
+// loop //
+
+// for (let i = 1; i <= 5; i++) {
+//   console.log("Abdullah AL Noman"); // This line will be executed 5 lines
+// }
+
+// let sum = 0;
+// for (let i = 1; i <= 5; i++){
+//     sum = sum + i;
+// }
+// console.log("Sum is =", sum)
+
+// n type of number
+
+// let sum = 0;
+// let n = 200;
+// for (let i = 1; i <= n; i++){
+//     sum = sum + i;
+// }
+// console.log("the sum ", sum)
+
+// let sum = 0;
+// let n = prompt("Enter the value you want to sum ");
+// for(let i = 1; i <= n; i++){
+//     sum = sum + i;
+// }
+// console.log("the sum is =", sum);
+
+// let i = 1;
+// while(i <= 10){
+//     console.log("Abdullah AL Noman");
+//     i++;
+// }
+
+// practice even number  0 to 100
+
+// for (let i = 0; i <= 100; i++) {
+//   if (i % 3 === 0) {
+//     console.log(i);
+//   } else {
+//   }
+// }
+
+//  practice qu2
+
+// let gameNumber = 83;
+// let useNumber = prompt("Guess the game number = ");
+// while(useNumber != gameNumber){
+//     useNumber = prompt("You guess the wrong number ");
+// }
+// console.log("Congratulations you gusse the right number : ");
+
+
+// practice question 3
+
+// let userName = prompt("Enter your full Name :");
+// userName = "@" + userName.toLocaleLowerCase()+userName.length;
+// console.log(userName);
