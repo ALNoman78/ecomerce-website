@@ -320,25 +320,27 @@
 //   }
 // }
 
-let bg = document.querySelector(".div")
-let btn = document.querySelector(".btn")
-let i = 0;
-btn.addEventListener("click",function(){
-  if ( i == 0) {
-    bg.style.backgroundColor = "red"
-    i = 1;
-    btn.innerHTML = "OFF"
-  }else{
-    bg.style.backgroundColor = "transparent"
-    btn.innerHTML = "On"
-    i = 0;
-  }
-})
+
+
+// let bg = document.querySelector(".div")
+// let btn = document.querySelector(".btn")
+// let i = 0;
+// btn.addEventListener("click",function(){
+//   if ( i == 0) {
+//     bg.style.backgroundColor = "red"
+//     i = 1;
+//     btn.innerHTML = "OFF"
+//   }else{
+//     bg.style.backgroundColor = "transparent"
+//     btn.innerHTML = "On"
+//     i = 0;
+//   }
+// })
 
 
 
-let card = document.querySelectorAll(".shoping-card")
-let addColor = document.querySelectorAll(".primary-btn")
+let card = document.querySelector(".shoping-card")
+let addColor = document.querySelector(".primary-btn")
 let onOff = 0;
 card.addEventListener("click",function () {
   if(onOff == 0){
